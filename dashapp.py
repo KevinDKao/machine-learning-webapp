@@ -48,7 +48,7 @@ def format_c_value(c_exp):
         return f'{value:.{decimal_places}f}'
 
 # Initialize the Dash app
-app = dash.Dash(__name__)
+app = dash.Dash(__name__, title='Machine Learning Learning!')
 
 app.layout = html.Div(className='container', children=[
     # Store components for caching data
